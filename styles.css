@@ -7,12 +7,21 @@
 
 /* Style the body */
 body {
-  background-color: #143f6b;
+  background-color: #201010;
   margin: 0;
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.header-title {
+  color: antiquewhite;
+  margin-bottom: 5%;
+  font-family: "Ballet", cursive;
+  font-size: 80px;
+  
 }
 
 /* Style the piano to use flex box */
@@ -44,10 +53,10 @@ body {
 }
 
 .white.active {
-  background-color: #ccc;
+  background-color: #e5e5e5;
 }
 
 .black.active {
-  background-color: #333;
+  background-color: #231c1c;
 }
 
